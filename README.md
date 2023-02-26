@@ -3,16 +3,23 @@ Gesture volume controller using OpenCV is a computer vision-based system that us
 
 Here are the steps involved in building a gesture volume controller using OpenCV:
 
-Capture video input: Use a camera to capture live video input of the user's hand gestures.
+1. Capture video input: Use a camera to capture live video input of the user's hand gestures.
 
-Preprocessing: Preprocess the video input to remove background noise and improve the quality of the image.
+2. Preprocessing: Preprocess the video input to remove background noise and improve the quality of the image.
 
-Hand detection: Use OpenCV to detect and track the user's hand in the video input. This can be achieved by using techniques such as thresholding, contour detection, and convex hull.
+3. Hand detection: Use OpenCV to detect and track the user's hand in the video input. This can be achieved by using techniques such as thresholding, contour detection, and convex hull.
 
-Gesture recognition: Implement a gesture recognition algorithm using OpenCV to recognize the user's hand gestures. Commonly used techniques for gesture recognition include template matching, machine learning, and deep learning.
+4. Gesture recognition: Implement a gesture recognition algorithm using OpenCV to recognize the user's hand gestures. Commonly used techniques for gesture recognition include template matching, machine learning, and deep learning.
 
-Volume control: Use the recognized gesture to control the volume of an audio or video player. This can be done by mapping the gesture to a specific volume level or by using a continuous gesture to increase or decrease the volume.
+5. Volume control: Use the recognized gesture to control the volume of an audio or video player. This can be done by mapping the gesture to a specific volume level or by using a continuous gesture to increase or decrease the volume.
 
-Display the output: Display the current volume level or the recognized gesture on the screen.
+6. Display the output: Display the current volume level or the recognized gesture on the screen.
+
+WORKING CONTROLS:
+
+>> AS DISTANCE BETWEEN TIP OF MIDDLE FINGER AND TIP OF THUMB INCREASES , VOLUME INCREASES GRADUALLY
+>> IF CERTAIN PERCENTAGE OF VOLUME NEED TO BE LOCKED THEN INCREASE THE DISTANCE BETWEEN TIP OF RING FINGER AND LITTLE FINGER , NOW THIS PERCENTAGE WILL BE LOCKED
+>> INORDER TO RESET THE PERCENTAGE CLSE ALL FINGERS THEN IT WILL BE RESET
+>> AGAIN LOCK AT FAVOURABLE PERCENTAGE
 
 Overall, the gesture volume controller using OpenCV is an interesting and useful application of computer vision and can be extended to control other features of a media player, such as playback speed, mute, and skip.
