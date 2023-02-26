@@ -25,4 +25,5 @@ WORKING CONTROLS:
 Overall, the gesture volume controller using OpenCV is an interesting and useful application of computer vision and can be extended to control other features of a media player, such as playback speed, mute, and skip.
 
 
-![profile-min](https://user-images.githubusercontent.com/73246457/221417036-f7760eb1-d862-4f85-b93c-a9763fc20b31.jpg)
+
+
